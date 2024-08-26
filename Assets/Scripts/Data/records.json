@@ -1,0 +1,100 @@
+[
+  {
+    "Name": "Italian Folk Metal",
+    "Artist": "Nanowar Of Steel",
+    "Genre": "Heavy\\Power Metal\\Hard Rock",
+    "MacroFormat": "Vinyl",
+    "Format": "LP 12\" 33+1⁄3 rpm",
+    "Label": "Napalm Records",
+    "Description": 
+    "Comprato e autografato al live al Modena Nerd 2022"
+  },
+
+  {
+    "Name": "Tropical Sun (Colonna Sonora Originale)",
+    "Artist": "Fulci-TV Crimes",
+    "Genre": "Death Metal\\Ambient",
+    "MacroFormat": "Vinyl",
+    "Format": "LP 7\" 45 rpm",
+    "Label": "Time To Kill Records",
+    "Description": 
+    "Limited edition presa a Firenze metal"
+  },
+
+  {
+    "Name": "Black Metal",
+    "Artist": "Venom",
+    "Genre": "Speed\\Proto-Black Metal",
+    "MacroFormat": "Vinyl",
+    "Format": "LP 12\" 33+1⁄3 rpm",
+    "Label": "Neat Records",
+    "Description": 
+    "Album importantissimo storicamente per lo sviluppo della scena del metal estremo"
+  },
+
+  {
+    "Name": "De Republica",
+    "Artist": "Griffon",
+    "Genre": "Melodic Black Metal",
+    "Format": "LP 12\" 33+1⁄3 rpm",
+    "MacroFormat": "Vinyl",
+    "Label": "Les Acteurs De L'Ombre Productions",
+    "Description": 
+    "Album di quest'anno, con tematiche storiche dal sound molto figo"
+  },
+
+  {
+    "Name": "1984",
+    "Artist": "Van Halen",
+    "Genre": "Hard Rock",
+    "Format": "LP 12\" 33+1⁄3 rpm",
+    "MacroFormat": "Vinyl",
+    "Label": "Warner Records",
+    "Description": 
+    "Album iconico di una band che ha fatto la storia della musica, dalle sonorità anni '80. La canzone più famosa è 'Jump'."
+  },
+
+  {
+    "Name": "In The Nightside Eclipse",
+    "Artist": "Emperor",
+    "Genre": "Symphonic Black Metal",
+    "Format": "LP 12\" 33+1⁄3 rpm",
+    "MacroFormat": "Vinyl",
+    "Label": "Candlelight Records",
+    "Description": 
+    "Album importantissimo per la scena black metal, soprattutto in quella sinfonica, di cui è stato uno dei pionieri"
+  },
+
+  {
+    "Name": "Longbottom + Frodo",
+    "Artist": "Grimdor",
+    "Genre": "Dungeon Synth",
+    "Format": "Double Side, Wooden Relic Box",
+    "MacroFormat": "Cassette",
+    "Label": "Kajdum's Tower",
+    "Description": 
+    "Compilation di due Demo"
+  },
+
+  {
+    "Name": "De Italia",
+    "Artist": "Corpo Di Guardia",
+    "Genre": "Black Metal\\Atmospheric Black Metal",
+    "Format": "Double Side",
+    "MacroFormat": "Cassette",
+    "Label": "Canti Eretici Productions",
+    "Description": 
+    "Piccola perla della scena black metal italiana, con tematiche medievali del territorio nostrano"
+  },
+
+  {
+    "Name": "American Gothic",
+    "Artist": "Wayfarer",
+    "Genre": "Atmospheric Black Metal",
+    "Format": "Digipak",
+    "MacroFormat": "CD",
+    "Label": "Century Media Records",
+    "Description": 
+    "Album atmospheric black metal che crea la propria personalità su sonorità che ricordano il Western"
+  }
+]

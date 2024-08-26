@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Collection</title>
+    <link rel="shortcut icon" href="/Assets/Images/discicon.svg" type="image/svg+xml">
+
+    <!--  Google Links (Fonts)  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+    <!--  Custom Styles Link  -->
+    <link rel="stylesheet" href="Assets/Styles/main_style.css">
+  </head>
+
+  <body>
+    
+    <!--
+      # HEADER
+    -->
+    <header class="header">
+
+      <div class="container" style="height: 100px;">
+        <button class="nav-open-btn" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+
+      <nav class="navbar" data-navbar>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <p class="navbar-link selected">Full Collection</p>
+          </li>
+
+          <li>
+            <a href="https://bandcamp.com/galacticdancer" target="_blank" class="navbar-link">
+              Digital Collection (Bandcamp)
+            </a>
+          </li>
+
+        </ul>
+
+        <ul class="stats-list">
+
+          <li>
+            <p> 
+              <span data-stats-vinyl>Error</span>
+              <span class="stats-item">Vinyls</span>
+            </p>
+          </li>
+
+          <li>
+            <p> 
+              <span data-stats-compact>Error</span> 
+              <span class="stats-item">Compact-Discs</span>
+            </p>
+          </li>
+
+          <li>
+            <p> 
+              <span data-stats-cassette>Error</span> 
+              <span class="stats-item">Cassettes</span>
+            </p>
+          </li>
+
+          <li>
+            <p> 
+              <span data-stats-total>Error</span>
+              <span class="stats-item">Total Records</span>
+            </p>
+          </li>
+
+        </ul>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="https://www.instagram.com/der_letze_uberlebt/" target="_blank" 
+            class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.discogs.com/it/user/TrooperBallerino" target="_blank"
+            class="social-link">
+              <ion-icon name="disc-outline"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://steamcommunity.com/profiles/76561199120186482/" target="_blank"
+            class="social-link">
+              <ion-icon name="logo-steam"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </header>
+
+    <main class="full-collection">
+      <article>
+
+        <section class="section hero">
+
+          <div class="container">
+
+            <h1 class="h1 hero-title"> Full Collection </h1>
+
+            <div class="stats-holder" data-stats-holder>
+              <div class="stats-item">
+                <a href="#Vinyls" class="stats-anchor">Vinyls</a>
+                <p class="stat-count" data-stats-vinyl>0</p>
+              </div>
+
+              <div class="stats-item">
+                <a href="#Compact-Discs" class="stats-anchor">Compact-Discs</a>
+                <p class="stat-count" data-stats-compact>0</p>
+              </div>
+
+              <div class="stats-item">
+                <a href="#Cassettes" class="stats-anchor">Cassettes</a>
+                <p class="stat-count" data-stats-cassette>0</p>
+              </div>
+
+              <div class="stats-item">
+                Total
+                <p class="stat-count" data-stats-total>0</p>
+              </div>
+            </div>
+
+          </div>
+
+        </section>
+
+        <div class="giga-container">
+
+          <section class="section records">
+            <div class="container" data-vinyl-container>
+              <a name="Vinyls" class="h2 section-title">Vinyls</a>
+            </div>
+          </section>
+
+          <section class="section records">
+            <div class="container" data-cassette-container>
+              <a name="Cassettes" class="h2 section-title">Cassettes</a>
+            </div>
+          </section>
+
+          <section class="section records">
+            <div class="container" data-CD-container>
+              <a name="Compact-Discs" class="h2 section-title">Compact-Discs</a>
+            </div>
+          </section>
+
+        </div>
+
+      </article>
+    </main>
+
+    <script type="module" src="Assets/Scripts/full-collection/sections.js"></script>
+    <script type="module" src="Assets/Scripts/full-collection/stats.js"></script>
+    <script type="module" src="Assets/Scripts/general.js"></script>
+    <script type="module" src="Assets/Scripts/header.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+
+</html>

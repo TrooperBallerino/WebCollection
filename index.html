@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Collection</title>
+    <link rel="shortcut icon" href="/Assets/Images/discicon.svg" type="image/svg+xml">
+
+    <!--  Google Links (Fonts)  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+    <!--  Custom Styles Link  -->
+    <link rel="stylesheet" href="Assets/Styles/main_style.css">
+  </head>
+
+  <body>
+    
+    <!--  
+      # HEADER
+    -->
+    <header class="header">
+
+      <div class="container" style="height: 100px;">
+        <button class="nav-open-btn" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+
+      <nav class="navbar" data-navbar>
+
+        <ul class="navbar-list">
+
+          <li>
+            <p class="navbar-link selected">Home</p>
+          </li>
+
+          <li>
+            <a href="full-collection.html" class="navbar-link">Full Collection</a>
+          </li>
+
+          <li>
+            <a href="https://bandcamp.com/galacticdancer" target="_blank" class="navbar-link">
+              Digital Collection (Bandcamp)
+            </a>
+          </li>
+
+        </ul>
+
+        <ul class="stats-list">
+
+          <li>
+            <p> 
+              <span data-stats-vinyl>Error</span>
+              <span class="stats-item">Vinyls</span>
+            </p>
+          </li>
+
+          <li>
+            <p> 
+              <span data-stats-compact>Error</span> 
+              <span class="stats-item">Compact-Discs</span>
+            </p>
+          </li>
+
+          <li>
+            <p> 
+              <span data-stats-cassette>Error</span> 
+              <span class="stats-item">Cassettes</span>
+            </p>
+          </li>
+
+          <li>
+            <p> 
+              <span data-stats-total>Error</span>
+              <span class="stats-item">Total Records</span>
+            </p>
+          </li>
+
+        </ul>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="https://www.instagram.com/der_letze_uberlebt/" target="_blank" 
+            class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.discogs.com/it/user/TrooperBallerino" target="_blank"
+            class="social-link">
+              <ion-icon name="disc-outline"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </header>
+
+    <main>
+      <article>
+
+        <!--  
+          # HERO
+        -->
+        <section class="section hero bg-img"
+        style="background-image: url(Assets/Images/background_banners/hero-bg.jpg);">
+          <div class="container">
+            <h2 class="h2 title"> best of the Collection</h2>
+
+            <div class="hero-slider" data-slider>
+
+              <div class="slider-inner">
+
+                <ul class="slider-container" data-slider-container>
+
+                  <li class="slider-item" data-slider-item> <!--1-->
+                    <div class="img-holder" style="--width: 575 --height: 550;" data-slider-holder>
+                      <img width="575" height="550" class="img-cover" data-slider-img>
+                      
+                      <div class="album-caption" data-slider-caption>
+                        <div class="caption-div"> 
+                          <span class="caption-span">Name: </span>
+                          <span data-slider-album-name>Error</span>
+                        </div>
+
+                        <div class="caption-div"> 
+                          <span class="caption-span">Artist: </span>
+                          <span data-slider-artist-name>Error</span>
+                        </div>
+
+                        <div class="caption-div"> 
+                          <span class="caption-span">Genre: </span>
+                          <span data-slider-album-genre>Error</span>
+                        </div>
+
+                        <div class="caption-div"> 
+                          <span class="caption-span">Format: </span>
+                          <span data-slider-album-format>Error</span>
+                        </div>
+
+                        <div class="caption-div"> 
+                          <span class="caption-span">Label: </span>
+                          <span data-slider-album-label>Error</span>
+                        </div>
+
+                        <p data-slider-album-description>Error</p>
+                      </div>
+
+                      <div class="loading-bar" data-slider-loading></div>
+                    </div>
+                    
+                  </li>
+
+                  <li class="slider-item" data-slider-item> <!--2-->
+                    <div class="img-holder" style="--width: 575 --height: 550;" data-slider-holder>
+                      <img src="" alt="nome album" 
+                      width="575" height="550" class="img-cover" data-slider-img>
+                      
+                      <div class="album-caption" data-slider-caption>
+                        <div class="caption-div"> 
+                          <span class="caption-span">Name: </span>
+                          <span data-slider-album-name>Error</span>
+                        </div>
+
+                        <div class="caption-div"> 
+                          <span class="caption-span">Artist: </span>
+                          <span data-slider-artist-name>Error</span>
+                        </div>
+
+                        <div class="caption-div"> 
+                          <span class="caption-span">Genre: </span>
+                          <span data-slider-album-genre>Error</span>
+                        </div>
+
+                        <div class="caption-div"> 
+                          <span class="caption-span">Format: </span>
+                          <span data-slider-album-format>Error</span>
+                        </div>
+
+                        <div class="caption-div"> 
+                          <span class="caption-span">Label: </span>
+                          <span data-slider-album-label>Error</span>
+                        </div>
+
+                        <p data-slider-album-description>An error must be occured</p>
+                      </div>
+                      <div class="loading-bar" data-slider-loading></div>
+                    </div>
+                    
+                  </li>
+
+                  <li class="slider-item" data-slider-item> <!--3-->
+                    <div class="img-holder" style="--width: 575 --height: 550;" data-slider-holder>
+                      <img width="575" height="550" class="img-cover" data-slider-img>
+                      
+                      <div class="album-caption" data-slider-caption>
+                        <div class="caption-div"> 
+                          <span class="caption-span">Name: </span>
+                          <span data-slider-album-name>Error</span>
+                        </div>
+
+                        <div class="caption-div"> 
+                          <span class="caption-span">Artist: </span>
+                          <span data-slider-artist-name>Error</span>
+                        </div>
+
+                        <div class="caption-div"> 
+                          <span class="caption-span">Genre: </span>
+                          <span data-slider-album-genre>Error</span>
+                        </div>
+
+                        <div class="caption-div"> 
+                          <span class="caption-span">Format: </span>
+                          <span data-slider-album-format>Error</span>
+                        </div>
+
+                        <div class="caption-div"> 
+                          <span class="caption-span">Label: </span>
+                          <span data-slider-album-label>Error</span>
+                        </div>
+
+
+                        <p data-slider-album-description> Error </p>
+                      </div>
+
+                      <div class="loading-bar" data-slider-loading></div>
+                    </div>
+                    
+                  </li>
+            
+                </ul>
+
+              </div>
+
+              <button class="slider-btn prev" data-slider-prev>
+                <ion-icon name="arrow-back"></ion-icon>
+              </button>
+
+              <button class="slider-btn next" data-slider-next>
+                <ion-icon name="arrow-forward"></ion-icon>
+              </button>
+            </div>
+
+
+          </div>
+        </section>
+
+        <!--
+          # ABOUT
+        -->
+        <section class="section about">
+
+          <div class="container">
+          <img src="Assets/Images/background_banners/about_banner.jpg" alt="about banner" 
+          loading="lazy" class="banner">
+
+            <div class="content">
+              <h2 class="h2 title"> Why choose analogic formats? </h2>
+
+              <ul class="about-list">
+
+                <li> <!--1-->
+                  <div class="accordion-card" data-accordion>
+
+                    <h3 class="card-title">
+                      <button class="accordion-btn" data-accordion-btn>
+                        <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+                        
+                        <span class="span">Support underground</span>
+                      </button>
+                    </h3>
+
+                    <p class="accordion-content">
+                      Support local artists buying merch at lives.<br>
+                      Support underground artists buying their merch on bandcamp.
+                    </p>
+
+                  </div>
+                </li>
+
+                <li> <!--2-->
+                  <div class="accordion-card" data-accordion>
+
+                    <h3 class="card-title">
+                      <button class="accordion-btn" data-accordion-btn>
+                        <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+                        
+                        <span class="span">Aesthetic</span>
+                      </button>
+                    </h3>
+
+                    <p class="accordion-content">
+                      A music collection is really aesthetic and you can be proud of it with your friends.
+                    </p>
+
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!--  
+          # ADDON
+        -->
+        <section class="section addon bg-img"
+        style="background-image: url(Assets/Images/background_banners/hero-bg.jpg);">
+          <div class="container">
+            <h2 class="h2 title"> daily advise</h2>
+
+
+              <div class="addon-disc">
+
+                <div class="img-holder" style="--width: 575 --height: 550;" data-addon-holder>
+                  <img width="575" height="550" class="img-cover" data-addon-img>
+                  
+                  <div class="album-caption" data-addon-caption>
+                    <div class="caption-div"> 
+                      <span class="caption-span">Name: </span>
+                      <span data-addon-album-name>Error</span>
+                    </div>
+
+                    <div class="caption-div"> 
+                      <span class="caption-span">Artist: </span>
+                      <span data-addon-artist-name>Error</span>
+                    </div>
+
+                    <div class="caption-div"> 
+                      <span class="caption-span">Genre: </span>
+                      <span data-addon-album-genre>Error</span>
+                    </div>
+
+                    <div class="caption-div"> 
+                      <span class="caption-span">Format: </span>
+                      <span data-addon-album-format>Error</span>
+                    </div>
+
+                    <div class="caption-div"> 
+                      <span class="caption-span">Label: </span>
+                      <span data-addon-album-label>Error</span>
+                    </div>
+
+                    <p data-addon-album-description> Error </p>
+                  </div>
+
+
+                  
+              </div>
+
+
+          </div>
+        </section>
+
+
+      </article>
+    </main>
+
+    <script type="module" src="Assets/Scripts/general.js"></script>
+    <script type="module" src="Assets/Scripts/hero.js"></script>
+    <script type="module" src="Assets/Scripts/header.js"></script>
+    <script type="module" src="Assets/Scripts/about.js"></script>
+    <script type="module" src="Assets/Scripts/addon.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+
+</html>
